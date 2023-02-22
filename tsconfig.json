@@ -1,0 +1,19 @@
+{
+  "include": ["src"],
+  "compilerOptions": {
+    "module": "es6", // generate ES modules
+    "moduleResolution": "node",
+    "target": "es5", // target ES5 API
+    "jsx": "react", // compile JSX to React.createElement statements for browser
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "allowJs": true,
+    "noImplicitAny": true,
+    "isolatedModules": true,
+    "noEmit": false
+  }
+}
